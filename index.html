@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - ENSEA Data Science Club</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Nex<span>us</span></div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="navigation">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#bureau">Membres du Bureau</a></li>
+                    <li><a href="#vision">Notre Bureau</a></li>
+                    <li><a href="#programme">Programme</a></li>
+                    <li><a href="#activites">Activités</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="slideshow">
+            <div class="slide active" style="background-image: url('1.webp');"></div>
+            <div class="slide" style="background-image: url('2.webp');"></div>
+            <div class="slide" style="background-image: url('3.webp');"></div>
+            <div class="slide" style="background-image: url('4.webp');"></div>
+            <div class="slide" style="background-image: url('5.webp');"></div>
+            <div class="slide" style="background-image: url('6.webp');"></div>
+        </div>
+        <div class="overlay"></div>
+        <div class="club-header">
+            <img src="data.webp" alt="Logo du club" class="club-logo">
+            <p class="campaign-title">CAMPAGNE ENSEA DATA SCIENCE CLUB</p>
+        </div>
+        <div class="hero-content">
+            <h1>Nexus</h1>
+            <p>Le lien entre les esprits curieux et le monde de la data</p>
+            <a href="#programme" class="btn">Découvrir notre programme</a>
+        </div>
+    </section>
+
+    <section id="bureau" class="container">
+        <div class="section-title">
+            <h2>Membres du Bureau</h2>
+        </div>
+        <div class="grid">
+            <!-- Président -->
+            <div class="card team-card">
+                <div class="card-img" style="background-image: url('./images/kindo.jpg');"></div>
+                <div class="card-content">
+                    <h3>KINDO Nathan</h3>
+                    <p>Président</p>
+                </div>
+            </div>
+            
+            <!-- Vice-Président -->
+            <div class="card team-card">
+                <div class="card-img" style="background-image: url('./images/vice-president.jpg');"></div>
+                <div class="card-content">
+                    <h3>NJOMANI Fred</h3>
+                    <p>Secrétaire Général</p>
+                </div>
+            </div>
+            
+            <!-- Responsable à la formation -->
+            <div class="card team-card">
+                <div class="card-img" style="background-image: url('./images/secretaire.jpg');"></div>
+                <div class="card-content">
+                    <h3>ABI Manoah</h3>
+                    <p>Responsable à la formation</p>
+                </div>
+            </div>
+            
+            <!-- Responsable aux finances -->
+            <div class="card team-card">
+                <div class="card-img" style="background-image: url('./images/tresorier.jpg');"></div>
+                <div class="card-content">
+                    <h3>KOUAME Gloria</h3>
+                    <p>Responsable aux finances</p>
+                </div>
+            </div>
+            
+            <!-- Responsable Communication -->
+            <div class="card team-card">
+                <div class="card-img" style="background-image: url('./images/communication.jpg');"></div>
+                <div class="card-content">
+                    <h3>FOGAING Franck</h3>
+                    <p>Responsable Communication</p>
+                </div>
+            </div>
+            
+            <!-- Responsable à l'Organisation -->
+            <div class="card team-card">
+                <div class="card-img" style="background-image: url('./images/communication.jpg');"></div>
+                <div class="card-content">
+                    <h3>COULIBALY Aïcha</h3>
+                    <p>Responsable à l'Organisation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="container">
+        <div class="section-title">
+            <h2>Notre Bureau</h2>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="card-img" style="background-image: url('nexus.webp');"></div>
+                <div class="card-content">
+                    <h3>Pourquoi Nexus ?</h3>
+                    <p><strong>"Nexus"</strong> est un mot latin qui signifie "lien", "connexion", "point de rencontre".</p>
+                    <p>Nous avons choisi ce nom car il symbolise parfaitement notre ambition : faire du club un carrefour entre les esprits curieux et le monde de la data. C'est aussi l'endroit où les talents se rencontrent pour ensemble aller plus loin.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('vision.webp');"></div>
+                <div class="card-content">
+                    <h3>Notre Vision</h3>
+                    <p>Faire du club un espace collaboratif et un environnement où chaque personne peut trouver sa part de connaissances.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('objectif.webp');"></div>
+                <div class="card-content">
+                    <h3>Nos Objectifs</h3>
+                    <ul>
+                        <li>Rendre la data science accessible à travers les formations</li>
+                        <li>Déclencher une motivation particulière des élèves pour la data à travers les challenges</li>
+                        <li>Favoriser la collaboration entre les membres</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programme" style="background-color: #f0f4f8;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Programme de Formation</h2>
+            </div>
+            
+            <!-- Onglets de niveau stylisés -->
+            <div class="program-tabs">
+                <div class="program-tab active" data-target="niveau1">Niveau 1: Fondations</div>
+                <div class="program-tab" data-target="niveau2">Niveau 2: Avancé</div>
+            </div>
+            
+            <!-- Contenu du niveau 1 -->
+            <div id="niveau1" class="program-content active">
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="python-logo.png" alt="Python Logo" class="module-icon">
+                        <h3 class="module-title">Module 1: Introduction à Python et à l'Algorithmie</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Bases de Python: types de données, variables, opérations</li>
+                                <li>Structures de contrôle: conditions, boucles</li>
+                                <li>Fonctions et modules</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="pandas-logo.png" alt="Pandas Logo" class="module-icon">
+                        <h3 class="module-title">Module 2: Manipulation et Visualisation des Données</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Introduction aux bibliothèques Pandas et NumPy</li>
+                                <li>Nettoyage et transformation des données</li>
+                                <li>Visualisation avec Matplotlib et Seaborn</li>
+                                <li>Statistiques descriptives (moyenne, médiane, écart-type, correlation)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="sql-logo.png" alt="SQL Logo" class="module-icon">
+                        <h3 class="module-title">Module 3: Gestion et Stockage des Données</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Introduction aux bases de données SQL</li>
+                                <li>Lecture et écriture de fichiers CSV, Excel</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="oop-logo.png" alt="OOP Logo" class="module-icon">
+                        <h3 class="module-title">Module 4: Programmation Orientée Objet (POO) en Data Science</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Classes et objets en Python</li>
+                                <li>Organisation du code pour des projets data</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="ml-logo.png" alt="Machine Learning Logo" class="module-icon">
+                        <h3 class="module-title">Module 5: Introduction au Machine Learning</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Supervised vs Unsupervised Learning</li>
+                                <li>Algorithmes de base: Régression linéaire, k-means, KNN</li>
+                                <li>Utilisation de Scikit-learn pour entraîner un modèle</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="project-logo.png" alt="Project Logo" class="module-icon">
+                        <h3 class="module-title">Projet de fin de Niveau 1: Analyse Exploratoire de Données</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Étude des tendances d'un marché (ex: analyse des prix sur Jumia)</li>
+                                <li>Visualisation et interprétation des données</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <img src="python-logo.png" alt="Python" class="tool-logo">
+                        <span class="tool-name">Python</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="pandas-logo.png" alt="Pandas" class="tool-logo">
+                        <span class="tool-name">Pandas</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="numpy-logo.png" alt="NumPy" class="tool-logo">
+                        <span class="tool-name">NumPy</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="matplotlib-logo.png" alt="Matplotlib" class="tool-logo">
+                        <span class="tool-name">Matplotlib</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="seaborn-logo.png" alt="Seaborn" class="tool-logo">
+                        <span class="tool-name">Seaborn</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="sql-logo.png" alt="SQL" class="tool-logo">
+                        <span class="tool-name">SQL</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contenu du niveau 2 -->
+            <div id="niveau2" class="program-content">
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="oop-logo.png" alt="OOP Logo" class="module-icon">
+                        <h3 class="module-title">Module 1: Programmation Orientée Objet (POO) en Data Science</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Classes et objets en Python</li>
+                                <li>Organisation du code pour des projets data</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="ml-logo.png" alt="Machine Learning Logo" class="module-icon">
+                        <h3 class="module-title">Module 2: Introduction au Machine Learning</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Supervised vs Unsupervised Learning</li>
+                                <li>Algorithmes de base: Régression linéaire, k-means, KNN</li>
+                                <li>Utilisation de Scikit-learn pour entraîner un modèle</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="feature-logo.png" alt="Feature Engineering Logo" class="module-icon">
+                        <h3 class="module-title">Module 3: Feature Engineering et Optimisation des Modèles</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Sélection et transformation des variables</li>
+                                <li>Validation des modèles et métriques d'évaluation</li>
+                                <li>Optimisation des hyperparamètres</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="scraping-logo.png" alt="Web Scraping Logo" class="module-icon">
+                        <h3 class="module-title">Module 4: Web Scraping et Collecte de Données</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Extraction de données avec BeautifulSoup et Scrapy</li>
+                                <li>Automatisation de la collecte de données</li>
+                                <li>Stockage des données récupérées</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="deploy-logo.png" alt="Deployment Logo" class="module-icon">
+                        <h3 class="module-title">Module 5: Déploiement d'un Modèle de Machine Learning</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Introduction à Streamlit pour créer une interface interactive</li>
+                                <li>Déploiement d'un modèle sur le web</li>
+                                <li>Présentation et restitution des résultats</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="module-accordion">
+                    <div class="module-header">
+                        <img src="project-logo.png" alt="Project Logo" class="module-icon">
+                        <h3 class="module-title">Projet de fin de Niveau 2: Modélisation et Prédiction</h3>
+                    </div>
+                    <div class="module-body">
+                        <div class="module-content">
+                            <ul>
+                                <li>Développement d'un modèle prédictif (ex: prédiction des prix d'un produit sur Jumia)</li>
+                                <li>Création d'une interface utilisateur avec Streamlit</li>
+                                <li>Combiner Websraping et ML</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <img src="scikit-logo.png" alt="Scikit-learn" class="tool-logo">
+                        <span class="tool-name">Scikit-learn</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="tensorflow-logo.png" alt="TensorFlow" class="tool-logo">
+                        <span class="tool-name">TensorFlow</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="r-logo.png" alt="R" class="tool-logo">
+                        <span class="tool-name">R</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="streamlit-logo.png" alt="Streamlit" class="tool-logo">
+                        <span class="tool-name">Streamlit</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="scrapy-logo.png" alt="Scrapy" class="tool-logo">
+                        <span class="tool-name">Scrapy</span>
+                    </div>
+                    <div class="tool-item">
+                        <img src="spss-logo.png" alt="SPSS" class="tool-logo">
+                        <span class="tool-name">SPSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activites" class="container">
+        <div class="section-title">
+            <h2>Projets et Activités</h2>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="card-img" style="background-image: url(zindi.webp);"></div>
+                <div class="card-content">
+                    <h3>Challenges Kaggle et Zindi</h3>
+                    <p>Formation sur les challenges Kaggle et Zindi pour préparer les étudiants aux compétitions de data science les plus prestigieuses.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url(challeng.webp);"></div>
+                <div class="card-content">
+                    <h3>Mini Challenges Trimestriels</h3>
+                    <p>Mini challenges exceptionnels (à faire en groupe) chaque fin de trimestre dans chaque niveau, avec possibilité de parrainage par certains professeurs de l'école.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url(confer.webp);"></div>
+                <div class="card-content">
+                    <h3>Conférences et Collaborations</h3>
+                    <p>Conférences avec des thèmes d'actualités, partages d'expérience et collaborations avec les autres écoles du CAPESA, particulièrement pour les webinars.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url(app.webp);"></div>
+                <div class="card-content">
+                    <h3>Application de Suivi Académique</h3>
+                    <p>Réalisation d'une application pour suivi de notes et de niveau des élèves, offrant un outil pratique tout en développant les compétences des membres.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url(conference.webp);"></div>
+                <div class="card-content">
+                    <h3>Formations</h3>
+                    <p>Des formations de qualités pour les membres du club afin de leur donner les bases pour être un bon data scientist</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url(challenge.webp);"></div>
+                <div class="card-content">
+                    <h3>Mise en place d'une équipe de recherche</h3>
+                    <p>Un ensemble de personnes sera selectionné pour reflechir et travailler sur des projets pertinents. <br> Ce sera une equipe spécialement pour les projets du club</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url(interclass.webp);"></div>
+                <div class="card-content">
+                    <h3>Interclasse EDSC</h3>
+                    <p>Compétitions opposant les différentes classes de l'école</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="objectifs" style="background-color: #f0f4f8;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre Organisation</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Organisation</h3>
+                        <p>Veillez à la bonne tenue des différentes activités et assurer une coordination efficace entre tous les membres.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Communication</h3>
+                        <p>Dynamiser les pages du club et accroître sa visibilité auprès de la communauté académique et professionnelle. <br> Beaucoup travailler avec les représentants pour la communication</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Finances</h3>
+                        <p>Gérer les ressources du club à travers les cotisations des membres et la vente de gadgets promotionnels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo">Nex<span>us</span></div>
+            <p>Le lien entre les esprits curieux et le monde de la data</p>
+            <p>&copy; 2025 Ensea data science club . </p>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navigation = document.getElementById('navigation');
+        
+        mobileMenu.addEventListener('click', function() {
+            navigation.classList.toggle('mobile-nav-active');
+        });
+        
+        // Fermer le menu quand on clique sur un lien
+        const navLinks = document.querySelectorAll('nav ul li a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navigation.classList.remove('mobile-nav-active');
+            });
+        });
+        
+        // Slideshow functionality
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        let slideInterval;
+        
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+        
+        // Démarre le slideshow quand la page est visible
+        function startSlideshow() {
+            slideInterval = setInterval(nextSlide, 5000);
+        }
+        
+        // Arrête le slideshow quand la page n'est pas visible
+        function stopSlideshow() {
+            clearInterval(slideInterval);
+        }
+        
+        // Gestion de la visibilité de la page
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) {
+                stopSlideshow();
+            } else {
+                startSlideshow();
+            }
+        });
+        
+        // Démarrage initial du slideshow
+        startSlideshow();
+        
+        // Programme de formation - onglets
+        const programTabs = document.querySelectorAll('.program-tab');
+        const programContents = document.querySelectorAll('.program-content');
+        
+        programTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Désactiver tous les onglets et contenus
+                programTabs.forEach(t => t.classList.remove('active'));
+                programContents.forEach(c => c.classList.remove('active'));
+                
+                // Activer l'onglet cliqué et son contenu
+                this.classList.add('active');
+                const targetContent = document.getElementById(this.getAttribute('data-target'));
+                targetContent.classList.add('active');
+            });
+        });
+        
+        // Modules déroulants
+        const moduleHeaders = document.querySelectorAll('.module-header');
+        
+        moduleHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                // Toggle active class
+                this.classList.toggle('active');
+                
+                // Gérer l'ouverture/fermeture du body
+                const moduleBody = this.nextElementSibling;
+                
+                if (this.classList.contains('active')) {
+                    // Calculer la hauteur nécessaire pour le contenu
+                    const moduleContent = moduleBody.querySelector('.module-content');
+                    moduleBody.style.maxHeight = moduleContent.offsetHeight + 'px';
+                } else {
+                    moduleBody.style.maxHeight = '0';
+                }
+            });
+        });
+        
+        // Ouvrir le premier module par défaut dans chaque niveau
+        const openFirstModules = () => {
+            const firstModules = document.querySelectorAll('.program-content.active .module-header:first-child');
+            firstModules.forEach(module => {
+                module.click();
+            });
+        };
+        
+        // Amélioration du chargement des images et initialisation des modules
+        document.addEventListener('DOMContentLoaded', function() {
+            // Préchargement des images du slideshow
+            const slideImages = document.querySelectorAll('.slide');
+            slideImages.forEach(slide => {
+                const bgUrl = slide.style.backgroundImage.slice(4, -1).replace(/"/g, "");
+                if (bgUrl) {
+                    const img = new Image();
+                    img.src = bgUrl;
+                }
+            });
+            
+            // Ouvrir le premier module du niveau actif par défaut
+            openFirstModules();
+        });
+        
+        // Navigation fluide
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70, // Ajustement pour le header fixe
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
